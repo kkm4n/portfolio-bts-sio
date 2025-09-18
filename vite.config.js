@@ -2,8 +2,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// Si tu déploies sur GitHub Pages, remplace <ton-repo> par le nom exact du repo
 export default defineConfig({
   plugins: [react()],
-  // base: "/<ton-repo>/",   // <-- dé-commente pour GitHub Pages (pas nécessaire en local)
+  base: "/portfolio-bts-sio/",   // <-- IMPORTANT pour GitHub Pages
 });
